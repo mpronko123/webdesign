@@ -1,10 +1,13 @@
 body{
-	margin:0;
+	
 	background-color: lightslategrey;
 }
+div{
+	
+	margin-left:360px;
+	float:left;
+}
 img{
-	width: 500px;
-	height: 500px;
-	margin: 50 auto;
-	float: left;
+	width: 100%;
+	height: 100%;
 }
