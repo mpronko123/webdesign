@@ -1,0 +1,9 @@
+body{
+	margin:50px;
+	background-color: lightslategrey;
+}
+div{
+	max-height: 100%;
+	max-width: 100%;
+	margin:0 auto;
+}

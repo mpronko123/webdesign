@@ -1,0 +1,10 @@
+body{
+	margin:0;
+	background-color: lightslategrey;
+}
+img{
+	width: 500px;
+	height: 500px;
+	margin: 50 auto;
+	float: left;
+}
