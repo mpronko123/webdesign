@@ -1,36 +1,70 @@
+
 h1{
-	font-family: 'Mali', cursive;
+	font-family: 'Pangolin', cursive;
 	color:limegreen;
-	font-size:50px;
-	text-align: center;
+	font-size:85px;
+	text-align: left justify;
+	margin-left: 500px;
+	margin-top: -500px;
+	margin-right: 40px;
 }
+
 h3{
 	font-family: 'Raleway', sans-serif;
-	margin-top: -20px;
-	text-align: center;
+	margin-top: -100px;
+	text-align: left;
 	color:crimson;
+	margin-left: 820px;
+
 
 }
 p{
 	font-family: 'Raleway', sans-serif;
 	margin: 0 auto;
-	text-align: center;
-	font-size: 25px;
+	text-align: left justify;
+	font-size: 36px;
+	margin-left: 500px;
 	margin-right: 200px;
-	margin-left: 200px;
+	padding-top: 10px;
+
 	
 }
 img {
-    display: block;
-    margin-left: auto;
+	float: left
+    margin-left: 0;
     margin-right: auto;
+    margin-top: 50px;
     width: 40%;
 }
 
-a{
+a:hover{
 	color: crimson;
-	
 
+}
+.reg{
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+	text-align: left justify;
+	font-size: 36px;
+	margin-left: 400px;
+	margin-right: 250px;
+	padding-top: 70px;
+}
+.final{
+	margin: 0 auto;
+	margin-left: 350px;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 150%;
+}
+.type{
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+	text-align: left justify;
+	font-size: 40px;
+	margin-left: 350px;
+	margin-right: 250px;
+	margin-top: 150px;
 }
 
 	
