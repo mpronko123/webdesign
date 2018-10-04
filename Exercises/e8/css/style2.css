@@ -1,0 +1,58 @@
+body{
+
+}
+h1{
+	font-size: 55px;
+	font-weight: normal;
+	font-family: 'Oxygen', sans-serif;
+	color: rosybrown;
+
+}
+.title{
+	position: fixed;
+	transform: rotate(90deg);
+	top:330px;
+	left:700px;
+	
+
+}
+
+h5{
+	font size:40px;
+	font-weight: lighter;
+	font-family: 'Lora', serif;
+
+}
+.author{
+position: fixed;
+transform: rotate(90deg);
+top:220px;
+left:880px;
+
+
+}
+
+h3{
+	font-size: 30px;
+	font-family: 'Oxygen', sans-serif;
+	
+}
+.chapter{
+	position: absolute;
+	left: 495px;
+	top: 150px;
+
+}
+
+
+p{
+font-family: 'Lora', serif;
+
+}
+.body{
+	position: absolute;
+	top:200px;
+	left: 500px;
+	right:150px;
+	width:350px; 
+}

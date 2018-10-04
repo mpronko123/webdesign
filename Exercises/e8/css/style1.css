@@ -1,0 +1,50 @@
+body{
+
+}
+h1{
+	font-size: 55px;
+	font-weight: normal;
+	font-family: 'Oxygen', sans-serif;
+
+}
+.title{
+	position: fixed;
+	left:495px;
+
+}
+
+h5{
+	font size:40px;
+	font-weight: lighter;
+	font-family: 'Lora', serif;
+
+}
+.author{
+position: fixed;
+left:500px;
+top:80px;
+}
+
+h3{
+	font-size: 40px;
+	font-family: 'Libre Franklin', sans-serif;
+}
+.chapter{
+	position: absolute;
+	left: 620px;
+	top: 130px;
+
+}
+
+
+p{
+font-family: 'Lora', serif;
+
+}
+.body{
+	position: absolute;
+	top:200px;
+	left: 500px;
+	right:150px;
+	width:350px; 
+}
