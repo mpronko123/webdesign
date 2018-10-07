@@ -1,13 +1,22 @@
 body{
-	background-color: ivory;
+	background-color: white;
 }
 h1{
-	font-family: sans-serif;
-	color: lightblue;
+	font-family: 'Fjalla One', sans-serif;
+	color: rosybrown;
 	text-decoration: underline;
 
 }
 h4{
 	font-family: sans-serif;
 	color: darkgrey;
+}
+a{
+	font-family: 'Lora', serif;
+	color: black;
+
+}
+
+a:hover{
+	color:royalblue;
 }
