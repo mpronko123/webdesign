@@ -1,0 +1,53 @@
+body{
+
+}
+h1{
+	font-size: 100px;
+	font-weight: bold;
+	font-family: 'Fjalla One', sans-serif;
+	color: rosybrown;
+
+}
+.title{
+	position: fixed;
+	top:550px;
+	
+}
+
+h5{
+	font size:20px;
+	
+	font-family: 'Lora', serif;
+
+}
+.author{
+position: fixed;
+top:680px;
+left:620px;
+
+
+}
+
+h3{
+	font-size: 40px;
+	font-family: 'Oxygen', sans-serif;
+	
+}
+.chapter{
+	position: absolute;
+	left: 455px;
+	top: 120px;
+
+}
+
+p{
+font-family: 'Lora', serif;
+
+}
+.body{
+	position: absolute;
+	top:150px;
+	left: 500px;
+	right:150px;
+	width:350px; 
+}
