@@ -26,6 +26,7 @@ p{
 	margin-left: 500px;
 	margin-right: 200px;
 	padding-top: 10px;
+	line-height: 40px;
 
 	
 }
@@ -36,7 +37,9 @@ img {
     margin-top: 50px;
     width: 40%;
 }
-
+a{
+	color: limegreen;
+}
 a:hover{
 	color: crimson;
 
@@ -46,13 +49,13 @@ a:hover{
 	margin: 0 auto;
 	text-align: left justify;
 	font-size: 36px;
-	margin-left: 400px;
+	margin-left: 320px;
 	margin-right: 250px;
 	padding-top: 70px;
 }
 .final{
 	margin: 0 auto;
-	margin-left: 350px;
+	margin-left: 300px;
     margin-right: auto;
     margin-top: 50px;
     width: 150%;

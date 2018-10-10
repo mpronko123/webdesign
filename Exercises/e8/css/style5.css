@@ -1,0 +1,52 @@
+
+h1{
+	font-family: 'Anton', sans-serif;
+	font-size: 60px;
+	color:maroon;
+	font-weight: bolder;
+}
+.title{
+	top:2px;
+}
+h4{
+	font-family: 'Crimson Text', serif;
+	font-size: 22px;
+	font-weight: lighter;
+
+}
+.author{
+	position: fixed;
+	top:70px;
+	left: 10px;
+}
+h3{
+	font-family: 'Anton', sans-serif;
+	text-decoration: underline;
+	font-size: 25px;
+	color:maroon;
+
+}
+.chapter{
+	position: absolute;
+	top:80px;
+	left:580px;
+}
+
+p{
+	font-family: 'Crimson Text', serif;
+	font-size:20px;
+}
+.body{
+	position: absolute;
+	top:150px;
+	left: 300px;
+	right:150px;
+	width:350px;  
+}
+.second{
+	position: absolute;
+	top:150px;
+	left: 680px;
+	right: 150px;
+	width: 350px;
+}
