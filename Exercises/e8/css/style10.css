@@ -1,0 +1,54 @@
+body{
+	background-color: lightsteelblue;
+}
+
+h1{font-family: 'Orbitron', sans-serif;
+	font-size: 140px;
+	color:white;
+	font-weight: bolder;
+	
+}
+.title1{
+	position: fixed;
+	top:250px;
+	left:100px;
+}
+h4{
+	font-family: 'Neuton', serif;
+	font-size: 30px;
+	font-weight: lighter;
+	color: white;
+
+}
+.author{
+	position: fixed;
+	top:420px;
+	left: 850px;
+}
+h3{
+	font-family: 'Neuton', serif;
+	font-size: 20px;
+	text-decoration: underline;
+	color:black;
+
+
+}
+.chapter{
+	position: absolute;
+	top:100px;
+	left:600px;
+}
+
+p{
+	font-family: 'Neuton', serif;
+	font-size:20px;
+	color: black;
+}
+.body{
+	position: absolute;
+	top:130px;
+	left: 500px;
+	right:150px;
+	width:350px;  
+}
+
