@@ -1,0 +1,418 @@
+body{
+	background-color: black;
+}
+.containerface{
+width: 350px;
+margin-left: calc((100vw - 350px) / 2);
+margin-top: 150px;
+}
+
+div{
+	position: absolute;
+}
+
+.head{
+		background-color: cornsilk;
+		height:350px;
+		width:285px;
+		border-radius: 50%;
+		box-shadow: 8px 10px 5px grey;
+
+
+}
+.eye1{
+	background-color: black;
+	position:relative;
+	top:130px;
+	left:78px;
+	height: 45px;
+	width: 50px;
+	border-radius: 50%;
+}
+.eye2{
+	background-color: black;
+	position:relative;
+	top:85px;
+	left:170px;
+	height: 45px;
+	width: 50px;
+	border-radius: 50%;
+
+}
+.triangle{
+	 width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-right: 50px solid red;
+      border-bottom: 10px solid transparent;
+      transform: rotate(18deg);
+      position: relative;
+      left: 103px;
+      bottom:-20px;
+
+}
+.triangle1{
+	  width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-left: 50px solid red;
+      border-bottom: 10px solid transparent;
+      transform: rotate(-16deg);
+      position: relative;
+      left:144px;
+      bottom:-1px;
+}
+.mouth{
+	background-color: black;
+	position: relative;
+	top:95px;
+	left:135px;
+	height:15px;
+	width:20px;
+	border-radius: 50%;
+	opacity: 0.7;
+
+}
+.dot1{
+	background-color: darkgrey;
+	position: relative;
+	top: -55px;
+	left: 90px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+
+}
+.dot2{
+	background-color: darkgrey;
+	position: relative;
+	top: -75px;
+	left: 125px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+}
+.dot3{
+	background-color: darkgrey;
+	position: relative;
+	top: -96px;
+	left: 160px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+}
+.dot4{
+	background-color: darkgrey;
+	position: relative;
+	top: -116px;
+	left: 195px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+}
+.dot5{
+	background-color: darkgrey;
+	position: relative;
+	top: -162px;
+	left: 195px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+}
+.dot6{
+	background-color: darkgrey;
+	position: relative;
+	bottom: 211px;
+	left: 195px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+}
+
+
+.dot7{
+	background-color: darkgrey;
+	position: relative;
+	bottom:200px;
+	left:90px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+}
+.dot8{
+	background-color: darkgrey;
+	position: relative;
+	bottom:250px;
+	left:90px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+}
+.triangle2{
+	width: 0;
+      height: 0;
+      border-top: 8px solid transparent;
+      border-left: 60px solid red;
+      border-bottom: 8px solid transparent;
+      transform: rotate(-40deg);
+      top:200px;
+      left: 72px;
+}
+.triangle3{
+	width: 0;
+      height: 0;
+      border-top: 8px solid transparent;
+      border-left: 60px solid red;
+      border-bottom: 8px solid transparent;
+      transform: rotate(-140deg);
+      top:200px;
+      left: 160px;
+}
+.dot9{
+	background-color: darkgrey;
+	top:260px;
+	left:100px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+}
+.dot10{
+	background-color: darkgrey;
+	top:290px;
+	left:100px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+}
+.dot11{
+	background-color: darkgrey;
+	top:320px;
+	left:100px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+}
+.dot12{
+	background-color: darkgrey;
+	top:260px;
+	left:170px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+}
+.dot13{
+	background-color: darkgrey;
+	top:290px;
+	left:170px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+}
+.dot14{
+	background-color: darkgrey;
+	top:320px;
+	left:170px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+}
+.dot15{
+	background-color: darkgrey;
+	top:265px;
+	left:65px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+}
+.dot16{
+	background-color: darkgrey;
+	top:275px;
+	left:40px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+}
+.dot17{
+	background-color: darkgrey;
+	top:265px;
+	left:200px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+}
+.dot18{
+	background-color: darkgrey;
+	top:275px;
+	left:225px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+}
+.dot19{
+	background-color: darkgrey;
+	top:75px;
+	left:45px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+}
+.dot20{
+	background-color: darkgrey;
+	top:105px;
+	left:45px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+}
+.dot21{
+	background-color: darkgrey;
+	top:90px;
+	left:20px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+
+}
+.dot22{
+	background-color: darkgrey;
+	top:75px;
+	left:225px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+}
+.dot23{
+	background-color: darkgrey;
+	top:105px;
+	left:225px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+}
+.dot24{
+	background-color: darkgrey;
+	top:90px;
+	left:250px;
+	height: 20px;
+	width:20px;
+	border-radius: 50%;
+}
+
+
+.square1{
+	background-color: saddlebrown;
+	height: 30px;
+	width: 25px;
+	top: 0px;
+	left: 135px;
+}
+.square2{
+	background-color: saddlebrown;
+	height: 30px;
+	width: 25px;
+	top: 170px;
+	left: 0px;
+}
+.square3{
+	background-color: saddlebrown;
+	height: 30px;
+	width: 25px;
+	top: 170px;
+	left: 260px;
+}
+
+
+
+.containersword{
+	width: 550px;
+	margin-left: calc((100vw - 550px) / 2);
+margin-top: 550px;
+
+}
+
+.blade{
+	width: 350px;
+      height: 91.5px;
+      transform: skew(20deg);
+      background: grey;
+      left:60px;
+      top: 21px;
+
+
+    
+}
+
+.cone{
+	  width: 0;
+      height: 0;
+      border-left: 70px solid transparent;
+      border-right: 70px solid transparent;
+      border-top: 100px solid grey;
+      border-radius: 50%;
+      transform:rotate(235deg);
+
+
+}
+.swordend{
+	width:37px;
+	height: 89px;
+	background-color: grey;
+	left:390px;
+	top:21px;
+
+}
+.handle{
+	width:210px;
+	height: 55px;
+	background-color: saddlebrown;
+	left:426px;
+	top:21px;
+}
+.divit{
+	 width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-bottom: 10px solid black;
+      top: 107px;
+      left:90px;
+}
+.divit1{
+	 width: 0;
+      height: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 10px solid black;
+      top: 107px;
+      left:100px;
+}
+.divit2{
+	 width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-bottom: 10px solid black;
+      top: 107px;
+      left:110px;
+}
+
+
+
