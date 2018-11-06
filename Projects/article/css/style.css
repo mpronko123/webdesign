@@ -1,5 +1,6 @@
 body{
 	margin:0;
+	background-color: lightslategrey;
 }
 a:hover{
 	color:blue;
@@ -57,6 +58,7 @@ img{
 
 }
 p{
+	color:white;
 	font-family: 'News Cycle', sans-serif;
 	font-size: 20px;
 	line-height: 1.3em;
@@ -76,11 +78,12 @@ p{
 
 }
 h4{
+	color:white;
 	font-family: 'News Cycle', sans-serif;
 	font-size:50px;
 	font-weight: bolder;
 	line-height: 1.3em;
-	color: black;
+	
 	text-align:center;
 }
 .said{
@@ -109,7 +112,7 @@ h2{
 	background-color:white;
 	width:6px;
 	height:500px;
-	left:-98px;
+	left:-97px;
 	top: -52px;
 }
 
