@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+	
+}
+.title, .five, .four, .three,.two,.one{
+	background-color: black;
+	width:100vw;
+	margin:0;
+	height: 80vw;
+
+
+}
+h1{
+	color:white;
+	font-size:150px;
+	margin-top: 0;
+	text-align: center;
+
+}
+
+h2{
+	color:white;
+	font-size:100px;
+	margin-top:0;
+	text-align: center;
+
+}
+.purpleBG{
+	background-color: darkslateblue;
+
+
+}
+.number5, .number1{
+	cursor:pointer;
+	
+}
+
+.blueBG{
+	background-color: royalblue;
+}
+.greenBG{
+	color:green;
+}
+.big{
+	transition: all 10s ease;
+	font-size: 300px;
+	color: yellow;
+	font-family: 'Spicy Rice', cursive;
+}
+.small{
+	transition:all 5s;
+	font-size:10px;
+
+}
+.spin{
+	transition:all 2s ease;
+	color: dodgerblue;
+	transform: rotate(360deg);
+}
