@@ -158,14 +158,14 @@ a:hover{
 
 }
 .container{
-	width: 100vw;
+	width: 80vw;
 	background-color: lightslategrey;
 	margin: 0;
 }
 
 .blue{
 	/*height: 750px;*/
-	width: 80vw;
+	width: 60vw;
 	margin: 0 auto;
 
 	
@@ -204,7 +204,7 @@ img{
 	min-width: 100%;
 }
 .container2, .container3,.container5{
-	width: 80vw;
+	width: 60vw;
 	margin: 0 auto;
 
 }
@@ -217,7 +217,7 @@ p{
 
 .body, .body2,.body3,.body5{
 
-	width:400px;
+	width:200px;
 	left: 100px;
 	margin: 0 auto;
 
