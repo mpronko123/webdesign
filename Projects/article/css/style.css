@@ -204,20 +204,20 @@ img{
 	min-width: 100%;
 }
 .container2, .container3,.container5{
-	width: 60vw;
+	width: 80vw;
 	margin: 0 auto;
 
 }
 p{
 	font-family: 'News Cycle', sans-serif;
-	font-size: 40px;
+	font-size: 60px;
 	line-height: 1.3em;
 	color:white;
 }
 
 .body, .body2,.body3,.body5{
 
-	width:500px;
+	width:80vw;
 	left: 100px;
 	margin: 0 auto;
 
