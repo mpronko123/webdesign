@@ -204,7 +204,7 @@ img{
 	min-width: 100%;
 }
 .container2, .container3,.container5{
-	width: 80vw;
+	width: 100vw;
 	margin: 0 auto;
 
 }
@@ -217,7 +217,7 @@ p{
 
 .body, .body2,.body3,.body5{
 
-	width:80vw;
+	width:100vw;
 	left: 100px;
 	margin: 0 auto;
 
