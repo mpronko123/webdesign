@@ -130,6 +130,9 @@ ul{
 
 .image{
 	width:100%;
+
+	margin-top: -1450px;
+
 	
 }
 h2.other{
@@ -137,5 +140,162 @@ h2.other{
 	text-align: left;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 50px;
+	margin-top: 50px;
+
+}
+.container5{
+	margin-top:-500px;
+	
+}
+
+@media only screen and (max-width: 600px){
+	body{
+	margin:0;
+	background-color: lightslategrey;
+}
+a:hover{
+	color:blue;
+
+}
+.container{
+	width: 100vw;
+	background-color: lightslategrey;
+	margin: 0;
+}
+
+.blue{
+	/*height: 750px;*/
+	width: 80vw;
+	margin: 0 auto;
+
+	
+}
+h1{
+	color: white;
+	text-align: right;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 60px;
+	margin-top: 0;
+
+}
+.title{
+	
+	
+}
+h3{
+	color: white;
+	text-align: right;
+	font-family: 'Roboto', sans-serif;	
+	font-size: 20px;
+}
+.authors{
+	/*position: relative;
+	top: 330px;
+	left:-194px;*/
+}
+.image1{
+	/*position: relative;
+	top:300px;
+	left:400px;
+	height: 100%*/
+	width:100%;
+}
+img{
+	min-width: 100%;
+}
+.container2, .container3,.container5{
+	width: 80vw;
+	margin: 0 auto;
+
+}
+p{
+	font-family: 'News Cycle', sans-serif;
+	font-size: 20px;
+	line-height: 1.3em;
+	color:white;
+}
+
+.body, .body2,.body3,.body5{
+
+	width:400px;
+	left: 100px;
+	margin: 0 auto;
+
+
+}
+.quote{
+	width:300px;
+	margin: 0 auto;
+
+}
+h4{
+	font-family: 'News Cycle', sans-serif;
+	font-size:50px;
+	font-weight: bolder;
+	line-height: 1.3em;
+	color: white;
+	text-align:center;
+}
+.said{
+	position:relative;
+	left:250px;
+	top:-95px;	
+}
+.container4{
+	background-color:lightslategrey;
+	width:80vw;
+	margin:0;
+
+}
+h2{
+	position: relative;
+	color: white;
+	text-align: left;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 50px;
+	margin-top: -110px;
+	margin-left:0 auto;
+
+
+}
+.line{
+	position:relative;
+	background-color:white;
+	width:6px;
+	height:1570px;
+	left:2.5px;
+	top: -55px;
+}
+ul{
+	color: white;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 20px;
+	line-height: 1.3em;
+}
+
+.body4{
+	position:relative;
+	top:-1600px;
+	left:20px;
+}
+
+.image{
+	width:100%;
+
+	margin-top: -1450px;
+
+	
+}
+h2.other{
+	color: white;
+	text-align: left;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 50px;
+
+}
+.container5{
+	margin-top:-500px;
+	
+}
 
 }
