@@ -3,11 +3,16 @@ body{
 }
 .container{
 	width:100vw;
-	height: 60vw;
-	background-image: url(../img/3.jpg);
+	height: 100vh;
+	background-image: url(../img/1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	padding:0;
+    margin:0;
+    display:inline-block;
+}
+.containers{	
 	padding:0;
     margin:0;
     display:inline-block;
@@ -59,7 +64,7 @@ h2{
 }
 .container2{
 	width:100vw;
-	height: 60vw;
+	height: 100vh;
 	background-color: rgb(234, 226,217);
 	padding:0;
     margin:0;
@@ -98,7 +103,7 @@ h4{
 	font-family: 'Raleway', sans-serif;
 }
 
-.container3{
+.container3 , .container4{
 	width:100px;
 	margin: 0 auto;
 }
@@ -108,9 +113,89 @@ h4{
 	width: 1000px;
 	background-color:rgb(234, 226,217);
 	left:280px;
+
 }
 .body{
 	position:absolute;
 	width: 320px;
 	right:250px;
+	top:200px;
 }
+.goto{
+	position: absolute;
+	bottom:-115px;
+	right:170px;
+
+}
+.block{
+	position: relative;
+	background-color:rgb(234, 226,217);
+	width:230px;
+	height: 50px;
+	margin: 0 auto;
+
+}
+.title{
+	position: relative;
+	top:5px;
+
+}
+#pic{
+	position:absolute;
+	left:170px;
+	top:210px;
+}
+.img{
+	width: 600px;
+	height:600px;
+}
+img{
+	width:400px;
+	height: 400px;
+}
+.el1,.el2, .el3,.el4,.el5, .el6, .el7{
+	position:relative;
+	width:804px;
+	height:404px;
+	top:100px;
+	right:300px;
+
+	
+
+}
+.top1,.top2, .top3, .top4, .top5, .top6, .top7, .top8, .top9, .top10,.top11,.top12,.top13{
+	position:relative;
+	width:400px;
+	height: 400px;
+
+}
+.top2, .top4, .top6, .top8, .top10, .top12, .top14{
+	position: absolute;
+	width: 400px
+	height:400px;
+	right:1px;
+	top:.01px;
+	
+}
+.layer1, .layer2, .layer3, .layer4 , .layer5, .layer6, .layer7, .layer8, .layer9, .layer10, .layer11, .layer12, .layer13, .layer14{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  top:-402px;
+  background: rgb(142, 15,15, 0.6);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .2s, visibility .2s;
+}
+.top1:hover .layer1 , .top2:hover .layer2 , .top3:hover .layer3 , .top4:hover .layer4 , .top5:hover .layer5 , .top6:hover .layer6, .top7:hover .layer7, .top8:hover .layer8, .top9:hover .layer9, .top10:hover .layer10, .top11:hover .layer11, .top12:hover .layer12, .top13:hover .layer13, .top14:hover .layer14{
+  visibility: visible;
+  opacity: 1;
+}
+.top1:hover .description , .top2:hover .description , .top3:hover .description , .top4:hover .description, .top5:hover .description, .top6:hover .description, .top7:hover .description, .top8:hover .description, .top9:hover .description, .top10:hover .description, .top11:hover .description, .top12:hover .description, .top13:hover .description, .top14:hover .description {
+  transform: translateY(0);
+}
+
