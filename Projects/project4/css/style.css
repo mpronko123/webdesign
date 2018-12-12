@@ -355,7 +355,36 @@ img{
 }
 
 @media only screen and (max-width: 440px){
-	
+.img{
+	width: 400px;
+	height:400px;
+}
+#pic{
+	margin:10px;
+	float:left;
+}
+.random{
+	width:400px;
+}
+.box{
+	position:absolute;
+	height: 1100px;
+	width: 1000px;
+	background-color:rgb(234, 226,217);
+	left:.05px;
+	}
+.body{
+	width: 190px;
+	/*right:250px;*/
+	top:600px;
+	float:left;
+	margin:10px;
+}
+.goto{
+	position: absolute;
+	bottom:-455px;
+	right:20px;
+}
 body{
 	background-color: rgb(234, 226,217);
 }
